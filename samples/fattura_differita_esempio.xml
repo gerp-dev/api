@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<gerp>
+  <movimento id="1"> // identificativo interno del documento
+    <Cod_Documento>1</Cod_Documento> // numero della fattura
+    <Serie_Doc>22</Serie_Doc> // serie della fattura (ultime due cifre dell'anno
+    <Num_Esercizio>2022</Num_Esercizio> // anno di esercizio
+    <Data_Documento>2022-12-05</Data_Documento> // data della fattura formato YYYY-MM-DD
+    <Des_Tipo_Doc>Fattura di vendita accompagnatoria</Des_Tipo_Doc> // descrizione del tipo di documento
+    <Cod_Pagamento>RD</Cod_Pagamento> // codice del pagamento
+    <Des_Pagamento>Rimessa diretta</Des_Pagamento> // descrizione del pagamento
+    <Cod_Porto>PF</Cod_Porto> // codice delle condizioni di trasporto (porto franco, assegnato ecc) 
+    <Codice_Agente></Codice_Agente> // codice agente
+    <Codice_Subagente></Codice_Subagente> // codice subagente
+    <Cod_Valuta>EUR</Cod_Valuta> // valuta usata dal documento
+    <Val_Spese_Trasporto>0.000000</Val_Spese_Trasporto> // spese di trasporto
+    <Val_Spese_Incasso>0.000000</Val_Spese_Incasso> // spese di incasso 
+    <cliente> // dati del cliente
+      <Ragione_Sociale>Azienda UE</Ragione_Sociale>
+      <Cod_Esterno>0001</Cod_Esterno>
+      <Indirizzo>via dei gatti neri, 17</Indirizzo>
+      <Cap>70100</Cap>
+      <Citta>Bari</Citta>
+      <Provincia>BA</Provincia>
+      <Nazione>IT</Nazione>
+    </cliente>
+    <righe>
+      <riga>
+        <ID_Tipo_Riga>M</ID_Tipo_Riga> // tipo di riga M: merce, A: merce codificata, S: servizio, D: descrittiva
+        <Des_Riga>Merce</Des_Riga> //descrizione riga
+        <Cod_Articolo></Cod_Articolo> // codice articolo
+        <Variante>1</Variante> // variante articolo
+        <Quantita>2.000000</Quantita> // quantita articolo
+        <Prezzo>30.000000</Prezzo> // prezzo
+        <Perc_Provvigione>0</Perc_Provvigione> // perc. provvigione in %
+        <Perc_Subprovvigione>0.0000</Perc_Subprovvigione> // perc. subprovvigione in %
+        <Perc_Sconto>0</Perc_Sconto> // perc. sconto in %
+        <Totale_Riga>60</Totale_Riga> // totale riga
+        <Cod_Iva>N3.1</Cod_Iva> // codice iva
+        <Cod_Tipo_Omaggio>0</Cod_Tipo_Omaggio> // codice omaggio, O: non omaggio, 1: omaggio imponibile, 2: omaggio totale (compreso di iva)
+      </riga>
+      <riga>
+        <ID_Tipo_Riga>S</ID_Tipo_Riga>
+        <Des_Riga>Servizio</Des_Riga>
+        <Cod_Articolo></Cod_Articolo>
+        <Variante>1</Variante>
+        <Quantita>5.000000</Quantita>
+        <Prezzo>25.000000</Prezzo>
+        <Perc_Provvigione>0</Perc_Provvigione>
+        <Perc_Subprovvigione>0.0000</Perc_Subprovvigione>
+        <Perc_Sconto>0</Perc_Sconto>
+        <Totale_Riga>125</Totale_Riga>
+        <Cod_Iva>N3.1</Cod_Iva>
+        <Cod_Tipo_Omaggio></Cod_Tipo_Omaggio>
+      </riga>
+    </righe>
+
+    <scadenze>
+      <Scadenza Data_Scadenza="" Val_Scadenza=""/>
+    </scadenze>
+    <totali>
+      <totale_merce>60</totale_merce>
+      <totale_servizi>125</totale_servizi>
+      <totale_imponibile>185</totale_imponibile>
+      <totale_documento>185</totale_documento>
+      <totale_sconto_pagamento>0</totale_sconto_pagamento>
+      <totale_trasporto>0</totale_trasporto>
+      <totale_dogana>0</totale_dogana>
+      <totale_spese_incasso>0</totale_spese_incasso>
+      <totale_iva>0</totale_iva>
+      <totale_iva_indetraibile>0</totale_iva_indetraibile>
+      <totale_documento_ivato>185</totale_documento_ivato>
+      <totale_documento_pagare>185</totale_documento_pagare>
+      <totale_omaggio>0</totale_omaggio>
+    </totali>
+  </movimento>
+</gerp>
