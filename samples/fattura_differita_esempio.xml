@@ -30,7 +30,8 @@
         <Cod_Articolo></Cod_Articolo> // codice articolo
         <Variante>1</Variante> // variante articolo
         <Quantita>2.000000</Quantita> // quantita articolo
-        <Prezzo>30.000000</Prezzo> // prezzo
+        <UM>KG</UM> // unita di misura
+        <Prezzo>30.00</Prezzo> // prezzo
         <Perc_Provvigione>0</Perc_Provvigione> // perc. provvigione in %
         <Perc_Subprovvigione>0.0000</Perc_Subprovvigione> // perc. subprovvigione in %
         <Perc_Sconto>0</Perc_Sconto> // perc. sconto in %
@@ -44,7 +45,8 @@
         <Cod_Articolo></Cod_Articolo>
         <Variante>1</Variante>
         <Quantita>5.000000</Quantita>
-        <Prezzo>25.000000</Prezzo>
+        <UM></UM>
+        <Prezzo>25.00</Prezzo>
         <Perc_Provvigione>0</Perc_Provvigione>
         <Perc_Subprovvigione>0.0000</Perc_Subprovvigione>
         <Perc_Sconto>0</Perc_Sconto>
@@ -55,7 +57,7 @@
     </righe>
 
     <scadenze>
-      <Scadenza Data_Scadenza="" Val_Scadenza=""/>
+      <Scadenza Data_Scadenza="2022-12-05" Val_Scadenza="185.00"/> // scadenze di pagamento
     </scadenze>
     <totali>
       <totale_merce>60</totale_merce>
