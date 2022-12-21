@@ -12,9 +12,9 @@
     <Codice_Agente></Codice_Agente> // codice agente
     <Codice_Subagente></Codice_Subagente> // codice subagente
     <Cod_Valuta>EUR</Cod_Valuta> // valuta della fattura
-    <Val_Spese_Trasporto>0.000000</Val_Spese_Trasporto> // 
-    <Val_Spese_Incasso>0.000000</Val_Spese_Incasso>
-    <cliente>
+    <Val_Spese_Trasporto>0.000000</Val_Spese_Trasporto> // spese di trasporto
+    <Val_Spese_Incasso>0.000000</Val_Spese_Incasso> // spese di incasso 
+    <cliente> // dati del cliente
       <Ragione_Sociale>Azienda UE</Ragione_Sociale>
       <Cod_Esterno/>
       <Indirizzo/>
