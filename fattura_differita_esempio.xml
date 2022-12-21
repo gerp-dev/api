@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <gerp>
-  <movimento id="1">
-    <Cod_Documento>1</Cod_Documento>
-    <Serie_Doc>18</Serie_Doc>
-    <Num_Esercizio>2022</Num_Esercizio>
-    <Data_Documento>2022-12-05</Data_Documento>
-    <Des_Tipo_Doc>Fattura di vendita accopagnatoria</Des_Tipo_Doc>
-    <Cod_Pagamento>RD</Cod_Pagamento>
-    <Des_Pagamento>Rimessa diretta</Des_Pagamento>
-    <Cod_Porto/>
-    <Codice_Agente/>
-    <Codice_Subagente/>
-    <Cod_Valuta>EUR</Cod_Valuta>
-    <Val_Spese_Trasporto>0.000000</Val_Spese_Trasporto>
+  <movimento id="1"> // identificativo interno del documento
+    <Cod_Documento>1</Cod_Documento> // numero della fattura
+    <Serie_Doc>18</Serie_Doc> // serie della fattura (ultime due cifre dell'anno
+    <Num_Esercizio>2022</Num_Esercizio> // anno di esercizio
+    <Data_Documento>2022-12-05</Data_Documento> // data della fattura formato YYYY-MM-DD
+    <Des_Tipo_Doc>Fattura di vendita accopagnatoria</Des_Tipo_Doc> // descrizione del tipo documento
+    <Cod_Pagamento>RD</Cod_Pagamento> // codice del pagamento
+    <Des_Pagamento>Rimessa diretta</Des_Pagamento> // descrizione del pagamento
+    <Cod_Porto>PF</Cod_Porto> // codice delle condizioni di trasporto (porto franco, assegnato ecc) 
+    <Codice_Agente></Codice_Agente> // codice agente
+    <Codice_Subagente></Codice_Subagente> // codice subagente
+    <Cod_Valuta>EUR</Cod_Valuta> // valuta della fattura
+    <Val_Spese_Trasporto>0.000000</Val_Spese_Trasporto> // 
     <Val_Spese_Incasso>0.000000</Val_Spese_Incasso>
     <cliente>
       <Ragione_Sociale>Azienda UE</Ragione_Sociale>
