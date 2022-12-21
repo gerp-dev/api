@@ -1,1 +1,46 @@
-
+<?xml version="1.0"?>
+<gerp>
+  <movimento id="1">
+    <Cod_Documento>1</Cod_Documento>
+    <Serie_Doc>18</Serie_Doc>
+    <Num_Esercizio>2022</Num_Esercizio>
+    <Data_Documento>2022-12-05</Data_Documento>
+    <Des_Tipo_Doc>Fattura di vendita accopagnatoria</Des_Tipo_Doc>
+    <Cod_Pagamento>RD</Cod_Pagamento>
+    <Des_Pagamento>Rimessa diretta</Des_Pagamento>
+    <Cod_Porto/>
+    <Codice_Agente/>
+    <Codice_Subagente/>
+    <Cod_Valuta>EUR</Cod_Valuta>
+    <Val_Spese_Trasporto>0.000000</Val_Spese_Trasporto>
+    <Val_Spese_Incasso>0.000000</Val_Spese_Incasso>
+    <cliente>
+      <Ragione_Sociale>Azienda UE</Ragione_Sociale>
+      <Cod_Esterno/>
+      <Indirizzo/>
+      <Cap/>
+      <Citta/>
+      <Provincia/>
+      <Nazione>ES</Nazione>
+    </cliente>
+    <righe/>
+    <scadenze>
+      <Scadenza Data_Scadenza="" Val_Scadenza=""/>
+    </scadenze>
+    <totali>
+      <totale_merce>60</totale_merce>
+      <totale_servizi>125</totale_servizi>
+      <totale_imponibile>185</totale_imponibile>
+      <totale_documento>185</totale_documento>
+      <totale_sconto_pagamento>0</totale_sconto_pagamento>
+      <totale_trasporto>0</totale_trasporto>
+      <totale_dogana>0</totale_dogana>
+      <totale_spese_incasso>0</totale_spese_incasso>
+      <totale_iva>0</totale_iva>
+      <totale_iva_indetraibile>0</totale_iva_indetraibile>
+      <totale_documento_ivato>185</totale_documento_ivato>
+      <totale_documento_pagare>185</totale_documento_pagare>
+      <totale_omaggio>0</totale_omaggio>
+    </totali>
+  </movimento>
+</gerp>
