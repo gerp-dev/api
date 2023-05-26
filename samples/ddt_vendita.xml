@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<gerp>
+  <movimento id="525">
+    <Cod_Documento>500</Cod_Documento>
+    <Serie_Doc>23</Serie_Doc>
+    <Num_Esercizio>2023</Num_Esercizio>
+    <Data_Documento>2023-05-26</Data_Documento>
+    <Des_Tipo_Doc>DDT DI VENDITA</Des_Tipo_Doc>
+    <Cod_Pagamento>RD</Cod_Pagamento>
+    <Des_Pagamento>Rimessa diretta</Des_Pagamento>
+    <Cod_Porto>PA</Cod_Porto>
+    <Codice_Agente/>
+    <Codice_Subagente/>
+    <Cod_Valuta>EUR</Cod_Valuta>
+    <Val_Spese_Trasporto>0.000000</Val_Spese_Trasporto>
+    <Val_Spese_Incasso>0.000000</Val_Spese_Incasso>
+      <cliente>
+        <Ragione_Sociale>Superlabels SRL</Ragione_Sociale>
+        <Cod_Esterno/>
+        <Indirizzo>Via Verdi, 45/A</Indirizzo>
+        <Cap>20121</Cap>
+        <Citta>Milano</Citta>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+        <Cod_SDI/>
+        <Email2>arubapec@pec.com</Email2>
+    </cliente>
+    <righe>
+      <riga>
+        <ID_Tipo_Riga>D</ID_Tipo_Riga>
+        <Des_Riga>NS ORDINE N. 25 DEL 09/02/21</Des_Riga>
+      </riga>
+      <riga>
+        <ID_Tipo_Riga>D</ID_Tipo_Riga>
+        <Des_Riga>VS ORDINE N. 1234556 DEL </Des_Riga>
+      </riga>
+      <riga>
+        <ID_Tipo_Riga>A</ID_Tipo_Riga>
+        <Des_Riga>et. demo febbraio 2021</Des_Riga>
+        <Cod_Articolo>ET43</Cod_Articolo>
+        <Variante>1</Variante>
+        <Quantita>50100.000000</Quantita>
+        <Prezzo>0.0088</Prezzo>
+        <Perc_Provvigione>0</Perc_Provvigione>
+        <Perc_Subprovvigione>0.0000</Perc_Subprovvigione>
+        <Perc_Sconto>0</Perc_Sconto>
+        <Totale_Riga>440.88</Totale_Riga>
+        <Cod_Iva>22</Cod_Iva>
+        <Cod_Tipo_Omaggio>0</Cod_Tipo_Omaggio>
+        <UM>PZ</UM>
+      </riga>
+      <riga>
+        <ID_Tipo_Riga>D</ID_Tipo_Riga>
+        <Des_Riga>Certificazione FSC</Des_Riga>
+      </riga>
+      <riga>
+        <ID_Tipo_Riga>S</ID_Tipo_Riga>
+        <Des_Riga>Concorso spese impianti</Des_Riga>
+        <Cod_Articolo/><Variante>1</Variante>
+        <Quantita>1.000000</Quantita>
+        <Prezzo>100</Prezzo>
+        <Perc_Provvigione>0</Perc_Provvigione>
+        <Perc_Subprovvigione>0.0000</Perc_Subprovvigione>
+        <Perc_Sconto>0</Perc_Sconto>
+        <Totale_Riga>100</Totale_Riga>
+        <Cod_Iva>22</Cod_Iva>
+        <Cod_Tipo_Omaggio/>
+        <UM>PZ</UM>
+      </riga>
+    </righe>
+    <scadenze/>
+    <totali>
+      <totale_merce>440.88</totale_merce>
+      <totale_servizi>100</totale_servizi>
+      <totale_imponibile>540.88</totale_imponibile>
+      <totale_documento>540.88</totale_documento>
+      <totale_sconto_pagamento>0</totale_sconto_pagamento>
+      <totale_trasporto>0</totale_trasporto>
+      <totale_dogana>0</totale_dogana>
+      <totale_spese_incasso>0</totale_spese_incasso>
+      <totale_iva>118.99</totale_iva>
+      <totale_iva_indetraibile>0</totale_iva_indetraibile>
+      <totale_documento_ivato>659.87</totale_documento_ivato>
+      <totale_documento_pagare>659.87</totale_documento_pagare>
+      <totale_omaggio>0</totale_omaggio>
+    </totali>
+  </movimento>
+</gerp>
