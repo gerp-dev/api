@@ -40,6 +40,7 @@
         <Cod_Articolo>ET43</Cod_Articolo>
         <Variante>1</Variante>
         <Quantita>50100.000000</Quantita>
+        <Cod_Impegno>QuiNumeroCommessaAlfanumerico</Cod_Impegno>
         <Prezzo>0.0088</Prezzo>
         <Perc_Provvigione>0</Perc_Provvigione>
         <Perc_Subprovvigione>0.0000</Perc_Subprovvigione>
