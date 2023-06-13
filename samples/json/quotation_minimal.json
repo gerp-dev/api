@@ -1,0 +1,20 @@
+{
+  "id_tipo_doc": 101,
+  "id_cliente": 1,
+  "note": "annotazioni",
+
+  "righe": [
+
+    {"tipo_riga": "M",
+        "des_riga": "descrizione prodotto",
+        "Prz_Merce": 0.99,
+        "Quantita": 1000 },
+
+    {"tipo_riga": "M",
+      "des_riga": "descrizione prodotto",
+      "Prz_Merce": 0.89,
+      "Quantita": 2000 }
+
+    ]
+
+}
