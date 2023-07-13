@@ -1,0 +1,21 @@
+<gerp>
+  <anagrafica> // dati del cliente
+      <Ragione_Sociale>Azienda UE</Ragione_Sociale>
+      <Cod_Esterno>0001</Cod_Esterno>
+      <Indirizzo>via dei gatti neri, 17</Indirizzo>
+      <Partita_Iva>IT0000000000</Partita_Iva>
+      <Codice_Fiscale>IT0000000000</Codice_Fiscale>
+      <Email>aziendaue@aziendaue.com</Email>
+      <Email2>aziendaue@emailpecprova.it</Email2>
+      <Cap>70100</Cap>
+      <Citta>Bari</Citta>
+      <Provincia>BA</Provincia>
+      <Nazione>IT</Nazione>
+           <cliente>
+             <Cod_Pagamento>RIMESSADIRETTA</Cod_Pagamento>
+             <Cod_Porto>PORTOFRANCO</Cod_Porto>
+             <Cod_Agente>AGENTE01</Cod_Agente>
+             <Cod_Iva>22</Cod_Iva>
+           </cliente>
+  </anagrafica>
+</gerp>
