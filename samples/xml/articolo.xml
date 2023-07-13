@@ -1,1 +1,26 @@
+<gerp>
+  <articolo>
 
+    <Cod_Articolo>Codice</Cod_Articolo>
+    <Des_Articolo>Descrizione</Des_Articolo>
+    <Des_Articolo_Ext>Descrizione estesa</Des_Articolo_Ext>
+    <ID_Tipo>111</ID_Tipo>
+    <Modulo>EB</Modulo>
+    <UM>KG</UM>
+    <Note>Annotazioni</Note>
+    <Costo_Std>1.1</Costo_Std>
+    <ID_Cliente_Default>1</ID_Cliente_Default>
+    <ID_Fornitore_Default></ID_Fornitore_Default>
+
+    <varianti>
+      <variante>
+        <Variante>1</Variante>
+        <Des_Variante>Descrizione variante</Des_Variante>
+        <Note_Variante>Note variante</Note_Variante>
+        <Cod_Esterno>Codice esterno</Cod_Esterno>
+
+      </variante>
+    </varianti>
+    
+  </articolo>
+</gerp>
