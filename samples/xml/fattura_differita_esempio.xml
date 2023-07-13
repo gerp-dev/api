@@ -18,6 +18,10 @@
       <Ragione_Sociale>Azienda UE</Ragione_Sociale>
       <Cod_Esterno>0001</Cod_Esterno>
       <Indirizzo>via dei gatti neri, 17</Indirizzo>
+      <Partita_Iva>IT0000000000</Partita_Iva>
+      <Codice_Fiscale>IT0000000000</Codice_Fiscale>
+      <Email>aziendaue@aziendaue.com</Email>
+      <Email2>aziendaue@emailpecprova.it</Email2>
       <Cap>70100</Cap>
       <Citta>Bari</Citta>
       <Provincia>BA</Provincia>
